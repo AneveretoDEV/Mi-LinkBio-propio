@@ -1,0 +1,65 @@
+/* Estilos Generales de la página */
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+/* html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+body::-webkit-scrollbar {
+    display: none;
+    /* margin: 0;
+    padding: 0;
+    height: 100%; */
+}
+
+
+/* Estilos del header */
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(178, 243, 245);
+}
+
+#headder_text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Estilos del footer */
+footer {
+    background-color: grey;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+}
+
+footer > h2 {
+    padding-right: 400px;
+}
+
+#footer-img {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
